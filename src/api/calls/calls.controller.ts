@@ -10,7 +10,7 @@ export class CallsController {
     return this.appService.getType(type);
   }
 
-  @Post('messages')
+  @Post()
   returnMessages():JSON {
     return this.appService.returnMessages();
   }
